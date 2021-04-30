@@ -1,0 +1,29 @@
+{
+  "name": "traveladvance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanananbeam/traveladvance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanananbeam/traveladvance/issues"
+  },
+  "homepage": "https://github.com/thanananbeam/traveladvance#readme",
+  "dependencies": {
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1"
+  }
+}
